@@ -29,5 +29,6 @@ function displayUserInfo(user) {
         <p><strong>Followers:</strong> ${user.followers}</p>
         <p><strong>Following:</strong> ${user.following}</p>
         <p><strong>Public Repositories:</strong> ${user.public_repos}</p>
+        <p><strong>created at:</strong>${user.created_at}</p>
     `;
 }
